@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 </head>
 <style>
     .custom-card:hover{
@@ -16,11 +16,13 @@
     .custom-btn{
         background-color: #873e23;
         border: none;
+        color: #fff;
     }
 
     .custom-btn:hover{
         background-color: #873e23;
         border: none;
+        color:#fff;
     }
 
     
@@ -52,6 +54,11 @@
     </nav>
 
     <div class="container-fluid">
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <h1 class="text-center">Waiters Page</h1>
+            </div>
+        </div>
         <div class="row mt-3 mb-3">
             <div class="col-md-4">
                 <div class="card shadow custom-card">
@@ -101,7 +108,7 @@
                                 <div class="card-title">
                                     <div class="d-flex flex-row">
                                         <div class="p-2">
-                                            <img src="https://via.placeholder.com/100x100" alt="placceholder" class="img-fluid">
+                                        <img src="img/pizza.jpg" alt="placceholder" class="img-fluid" style="width: 230px;height: 100px;">
                                         </div>
                                         <div class="style-title">
                                             <div id="title">
@@ -122,7 +129,7 @@
                                     
                                     </div>     
                                     <div id="style-btn">
-                                        <button class="btn btn-primary custom-btn">Order</button>
+                                        <button class="btn custom-btn">Order</button>
                                     </div>
             
                                     
@@ -139,8 +146,27 @@
                 <div class="card shadow">
                     <div class="card-body">
                         <div class="card-title">
-                            Test
+                            <h1>Cart</h1>
                         </div>
+                        <div class="d-flex flex-row">
+                            <div class="p-2">
+                            <img src="img/pizza.jpg" alt="placceholder" class="img-fluid" style="width: 230px;height: 100px;">
+                            </div>
+                            <div class="style-title">
+                                <div id="title">
+                                    Food Name
+                                    
+                                </div>
+                                <div id="subtitle">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </div>
+                                <div class="card-subtitle mb-2 text-muted">Rp. 10.000</div>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <a href="cashier.php" class="btn btn-success btn-block">Checkout</a>
+                        </div>
+
                     </div>  
                 </div>
             </div>
